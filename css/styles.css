@@ -1,0 +1,77 @@
+@import url('reset.css');
+
+h1{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 25px;
+    font-weight: 500;
+    color: purple;
+}
+
+.countainer {
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+}
+
+.cards_block{
+    width: 1200px;
+    background-color: rgb(248, 214, 219);
+    margin: 0 auto;
+    font-size: 0;
+   
+}
+
+.card{
+    width: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+.breed{
+    padding: 20px;
+    text-align: center;
+    background-color:whitesmoke;
+    margin: 5px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.head{
+    text-align: center;
+    font-weight: 600;
+    color: purple;
+    margin: 20px 0px;
+}
+
+.text{
+    height: 103px;
+    overflow: hidden;
+    text-align: justify;
+    margin: 10px 0px;
+        
+}
+
+.image{
+    overflow: hidden;
+    width: 350px; 
+    height: 200px;
+    border: 2px solid gainsboro ;
+    
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+p + p {
+    margin-top: 5px;
+}
+   
